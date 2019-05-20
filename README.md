@@ -24,8 +24,8 @@ define(ENV, 'production');      // For livevironment
   * By mistake debug has been echoed on stage or production environment?
   * Use this function for rescue 
   * example: 
-  ** TextService::P($data);
-  ** TextService::P([$request, $responce]);
+  *- TextService::P($data);
+  *- TextService::P([$request, $responce]);
 
 4. makeName()
   * This function identifies salutation, first and last name from name string and returns an array 
