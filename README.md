@@ -11,28 +11,27 @@ define(ENV, 'stage');           // For stagingnment
 define(ENV, 'production');      // For livevironment
 
 # What does this library provide?
-1. getError
+1. getError()
   * Manage errors in application
   * Error will only display in dev and test environment
   * In case of stage and production environment 500 page will be displayed
 
-2. format
+2. format()
   * Format string where required, many string formating functions have been handled in one function.
   
-3. p
+3. p()
   * Print data in dev or test environment, fedup of writting 3-4 lines everytime to just check output for debugging?
   * By mistake debug has been echoed on stage or production environment?
   * Use this function for rescue 
   * example: 
   ** TextService::P($data);
   ** TextService::P([$request, $responce]);
-  *
 
-4. makeName
+4. makeName()
   * This function identifies salutation, first and last name from name string and returns an array 
   
-5. makeAddress
+5. makeAddress()
   *  Manage address in string by giving inputs in array
   
-6. getDateInFormat
+6. getDateInFormat()
   * Manage date format accross application, set default value to reduce some work
