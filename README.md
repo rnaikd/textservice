@@ -5,6 +5,7 @@ I've created very tiny lib to support developers to use text functions very easi
 Just clone or download class file and add in libraries, do not forget to load your libraries, or you can just include this file in base class, so that it can be accessed from anywhere in project.
 
 Do not forget to add ENV constant in project to make this library work perfectly.
+
 define(ENV, 'dev');             // For development environment
 
 define(ENV, 'test');            // For testing envionment
