@@ -7,8 +7,8 @@ Just clone or download class file and add in libraries, do not forget to load yo
 Do not forget to add ENV constant in project to make this library work perfectly.
 define(ENV, 'dev');             // For development environment
 define(ENV, 'test');            // For testing envionment
-define(ENV, 'stage');           // For stagingnment
-define(ENV, 'production');      // For livevironment
+define(ENV, 'stage');           // For staging environment
+define(ENV, 'production');      // For live environment
 
 # What does this library provide?
 1. getError()
