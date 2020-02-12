@@ -7,7 +7,7 @@
  * @version 1: /library/TextService 2019-05-01 $
  * @category Library
  * @author Rahul Naik
- * @since File available since Release 1.0  
+ * @since File available since Release 1.0.0  
  */
 class TextService {
 
@@ -36,7 +36,7 @@ class TextService {
      * @param string $url
      * @param string $type
      * @author Rahul N. 
-     * @example TextService::getError($error);
+     * @example TextService::getError($error, $url);
      */
     public static function getError($e, $url, $type = 'Exception') {
         global $config;
@@ -57,7 +57,7 @@ class TextService {
      * @access public
      * @since 1.0.0
      * @param string $string
-     * @type string $type ex, ucfirst
+     * @type string $type | example ucfirst
      * @return string
      * @author Rahul N. 
      * @example TextService::format("good morning user");
